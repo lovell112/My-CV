@@ -1,0 +1,162 @@
+*,
+*:before,
+*:after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.text1{
+    font-size:60px;
+}
+
+.text2{
+    font-size: 40px;
+}
+
+.textp{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    width:100%;
+}
+
+:root{
+    --gray:#737373;
+    --dark-gray:#353535;
+    --light-gray:#F0F0F0;
+    --white:white;
+    --success:rgb(25, 135,84);
+    --smooth:all 0.3s ease-in;
+}
+
+.left{
+    color:var(--white);
+    background-color: var(--dark-gray);
+    min-height: 2000px;
+}
+
+.left__avatar{
+    width:auto;
+    height:440px;
+    text-align: center;
+    align-items: center;
+    padding:10px;
+}
+
+.left__avatar img{
+    border-radius: 50%;
+    width:auto;
+    height: 400px;
+    object-fit: cover;
+    padding:10px;
+    transition: var(--smooth);
+}
+
+.left__avatar img:hover{
+    transform:scale(1.1);
+}
+
+.left__info{
+    padding:50px 40px;
+}
+
+.left__infodiff--select{
+    color:white;
+    list-style-type: none;
+    transition: var(--smooth);
+}
+
+.left__infodiff--select:hover{
+    transform: scale(1.1);
+}
+
+.left__infodiff--select a{
+    color:white;
+    text-decoration: none;
+    transition: var(--smooth);
+}
+
+.left__infodiff--select a:hover{
+    color:var(--success);
+}
+
+.left__edu{
+    padding: 50px 40px;
+}
+
+.left__skill{
+    padding: 50px 40px;
+}
+
+.right{
+    color:var(--gray);
+    background-color: var(--white);
+    min-height: 2000px;
+}
+
+.right__header{
+    background-color: var(--light-gray);
+    height:420px;
+    padding:120px 40px;
+}
+
+.right__exps h1{
+    margin:20px;
+    padding:12px;
+}
+
+.right__exps{
+    padding:5px 40px;
+}
+
+.right__exp{
+    margin:40px 5px;
+}
+
+.right__exp--header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.right__exp--header--left{
+    display:inline-block;
+}
+
+.right__exp--header--right{
+    margin-top: 0;
+    height: 100%;
+    display:inline-block;
+}
+
+.footer__content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer h1{
+    margin:20px;
+    padding:12px;
+}
+
+.footer__content--left{
+    margin:20px;
+    padding:12px;
+    display:inline-block;
+}
+
+.footer__content--right{
+    margin:20px;
+    padding:12px;
+    display:inline-block;
+}
